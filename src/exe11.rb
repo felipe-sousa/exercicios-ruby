@@ -11,21 +11,16 @@ Valor de I - Forma a Escrever
 =end
 
 puts "Digite o valor de I: "
-i = gets
+i = gets.to_i
 
 puts "Digite o valor de A: "
-a = gets
+a = gets.to_f
 
 puts "Digite o valor de B: "
-b = gets
+b = gets.to_f
 
 puts "Digite o valor de C: "
-c = gets
-
-i = i.to_i
-a = a.to_f
-b = b.to_f
-c = c.to_f
+c = gets.to_f
 
 maior = a
 if b > maior || c > maior
